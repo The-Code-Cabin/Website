@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@600&display=swap');
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-size: x-large;
+    font-weight: 800;
+    padding: 0px 15%;
+    margin: 0px;
+    background-color: #dedede;
+}
+
+.top {
+    height: 25pc;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: -10px;
+}
+
+.bottom {
+    height: 15pc;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: right;
+}
+
+.tcc {
+    font-size: 100px;
+    text-decoration: dotted;
+}
+
+.joindiscord {
+    height: 4pc;
+    width: 19pc;
+    background-color: #5865F2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: all 0.5s ease 0s;
+    position: absolute;
+    right: 12.8pc;
+}
+
+.joindiscord:hover {
+    height: 5pc;
+    width: 20pc;
+}
+
+.jd {
+    font-size: 23px;
+    text-decoration: none;
+}
+
+.box1 {
+    height: 20pc;
+    width: 30pc;
+    background-color: #c7c7c7;
+    padding-left: 25px;
+    padding-right: 25px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+
+.box2 {
+    padding-left: 25px;
+    padding-right: 25px;
+    height: 15pc;
+    width: 30pc;
+    background-color: #c7c7c7;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
